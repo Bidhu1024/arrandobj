@@ -2,7 +2,8 @@ const letters = ()=>{
     const phrase = "Hey, you are beautiful!"
 
     for(le in phrase){
-        console.log(le)
+       //typeCast
+     console.log(Number(le) + 1)
     }
 }
 
